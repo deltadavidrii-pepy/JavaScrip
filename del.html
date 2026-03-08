@@ -119,6 +119,41 @@
              var coba  = tambah(1,2,3);
              console.log(coba);
 
+             // variable SCOPE/ FUNCIION SCOPE
+             // konsep function scope
+             var i = 2;
+
+             if(i % 2 == 0){
+                var genap = true;
+
+             }
+
+             if(genap){
+                console.log('genap!');
+             }
+             // global Scope/ windoew Scope
+             // variable a merupakan variable global yang bisa digunakan dimanapun di dalam program
+               
+             var a = 1;// variable a bisa digunakan dan di tampilkan meskipun di luar funcion karena global
+             function tes(){
+                var b = 3;
+                console.log(a);
+
+             }
+             tes()
+        
+
+             // jika variable b merupakan lokal variable b hanya bisa dilakukan dalam function saja
+             //function tes(){
+             //   var b = 3
+             //}
+             // tes();
+            // console.log(b);// akan eror karena variable b meruapakan lokal.
+
+
+            
+
+
 
 
 
