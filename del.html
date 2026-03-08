@@ -149,6 +149,21 @@
              //}
              // tes();
             // console.log(b);// akan eror karena variable b meruapakan lokal.
+ // atau
+             // vaariablenya SAMA TETAPI Scopenya Beda
+              var a = 1;
+
+              function tes(){
+                // 
+                var a =2;
+                // atau bisa juga 
+                // console.log(window.a);
+              }
+
+              tes();
+              console.log(a);// maka hasilnya 1 bukan 2.
+
+
 
 
             
