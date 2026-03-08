@@ -19,8 +19,32 @@
             var nama = "putri sari";
             console.log(nama.charAt(5)); // menampilkan karakter ke 5 pada index atau fungsi
 
-            var bil = Marh.random();// untuk menampilkan angka rondom
+            var bil = Math.random();// untuk menampilkan angka rondom
             console.log(bil);
+            
+            //untuk bagian "MEMBUAT USER- DEFINED FUNCTION" 
+            // deskripsi function declaration
+            function jumlahDuaBilangan(a,b){
+            var total;
+            total = a + b;
+
+            return total;
+
+            }
+            // function expression 
+            var jumlahDuaBilangan = function(a,b){
+                var total;
+                total = a + b;
+
+                return total;
+            }
+
+            //memanggik atau menjalankan fungsion
+            alert(jumlahDuaBilangan(5,10));
+            alert(jumlahDuaBilangan(15,20));
+            alert(jumlahDuaBilangan(25,30,));
+             
+
             
             
 
